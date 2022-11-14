@@ -25,7 +25,7 @@
 								 	<img src="{{$person->getProfileImageUrl()}}" alt="{{$person->name}}">
 								@endif 
 							</a>
-							<div class="person-card__content p-4">
+							<div class="person-card__content">
 								<h3 class="text-brand-primary-2 text-3xl mb-2">{{$person->name}}</h3>
 								<p class="text-grey-1 mb-4 text-lg">{{$person->position}}</p>
 								<div class="mb-8">

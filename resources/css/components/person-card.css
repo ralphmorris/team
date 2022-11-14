@@ -47,5 +47,5 @@
 	}
 }
 .person-card__content {
-    @apply grow flex flex-col;
+    @apply grow flex flex-col px-6 pt-8 pb-6;
 }
