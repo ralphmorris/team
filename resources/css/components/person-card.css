@@ -1,5 +1,6 @@
 .person-card {
 	@apply bg-white h-full flex flex-col;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .person-card__header {
 	@apply bg-brand-primary-3 block transition-all relative overflow-hidden;
