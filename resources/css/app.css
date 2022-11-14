@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/cera-pro-font/Cera Pro Medium.ttf");
+}
+
+@font-face {
+  font-family: "Cera Pro Light";
+  src: url("../fonts/cera-pro-font/Cera Pro Light.ttf");
+}
+
 @import './components/table';
 @import './components/search-form';
 @import './components/team-index';

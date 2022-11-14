@@ -26,13 +26,13 @@
 								@endif 
 							</a>
 							<div class="person-card__content">
-								<h3 class="text-brand-primary-2 text-3xl mb-2">{{$person->name}}</h3>
-								<p class="text-grey-1 mb-4 text-lg">{{$person->position}}</p>
+								<h4 class="text-brand-primary-2 text-3xl mb-2 font-ceraLight">{{$person->name}}</h4>
+								<p class="text-grey-1 mb-4 text-lg font-cera">{{$person->position}}</p>
 								<div class="mb-8">
 									@include('livewire.person._location', ['person' => $person])
 								</div>
 								<div>
-									<a class="bg-brand-secondary-1 text-brand-grey-1 py-2 px-8 font-bold rounded-lg inline-block uppercase text-sm" href="{{route('person.show', $person->slug)}}">View Bio</a>
+									<a class="bg-brand-secondary-1 text-brand-grey-1 py-2 px-8 font-bold rounded-lg inline-block uppercase text-sm font-cera tracking-widest" href="{{route('person.show', $person->slug)}}">View Bio</a>
 								</div>
 							</div>
 						</div>

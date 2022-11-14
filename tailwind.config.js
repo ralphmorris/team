@@ -13,6 +13,8 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+                cera: ["Cera Pro", "Open Sans"],
+                ceraLight: ["Cera Pro Light", "Cera Pro" , "Open Sans"],
             },
             colors: {
                 brand: {
