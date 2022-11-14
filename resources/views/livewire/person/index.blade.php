@@ -28,7 +28,7 @@
 							<div class="person-card__content">
 								<h4 class="text-brand-primary-2 text-3xl mb-2 font-ceraLight">{{$person->name}}</h4>
 								<p class="text-grey-1 mb-4 text-lg font-cera">{{$person->position}}</p>
-								<div class="mb-8">
+								<div class="mb-8 font-ceraLight">
 									@include('livewire.person._location', ['person' => $person])
 								</div>
 								<div>

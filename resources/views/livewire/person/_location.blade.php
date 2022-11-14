@@ -1,4 +1,4 @@
-<div class="text-grey-1 flex mt-auto font-ceraLight">
+<div class="text-grey-1 flex mt-auto">
 	@include('svg.location')
-	{{$person->location}}
+	<span class="pl-2 inlne-block">{{$person->location}}</span>
 </div>
