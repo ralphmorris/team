@@ -1,0 +1,50 @@
+.person-card {
+	@apply bg-white h-full flex flex-col;
+}
+.person-card__header {
+	@apply bg-brand-primary-3 block transition-all relative overflow-hidden;
+}
+@media screen and (min-width: 1024px) {
+	.person-card__header:before {
+		@apply transition-all block absolute;
+		content: "";
+		left: 0;
+		width: 0; 
+		height: 0; 
+		border-left: 100px solid white;
+		border-right: 100px solid transparent;
+		border-top: 100px solid transparent;
+
+		transform: rotate(-30deg);
+		bottom: -100px;
+	}
+	.person-card__header:after {
+		@apply transition-all block absolute;
+		content: "";
+		display: block;
+		width: 0; 
+		height: 0; 
+		border-left: 100px solid transparent;
+		border-right: 390px solid white;
+		border-top: 100px solid transparent;
+
+		transform: rotate(-30deg);
+		bottom: -300px;
+		right: -100px;
+	}
+	.person-card:hover .person-card__header {
+		@apply bg-brand-primary-2;
+	}
+	.person-card:hover .person-card__header:before {
+		transform: rotate(0deg);
+		bottom: 0px;
+	}
+	.person-card:hover .person-card__header:after {
+		transform: rotate(0deg);
+		bottom: 0px;
+		right: 0px;
+	}
+}
+.person-card__content {
+    @apply grow flex flex-col;
+}

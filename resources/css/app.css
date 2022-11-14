@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './components/table';
+@import './components/search-form';
+@import './components/team-index';
+@import './components/person-card';
